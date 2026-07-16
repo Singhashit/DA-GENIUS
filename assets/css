@@ -1,0 +1,30 @@
+.main{
+    background-color:#0F172A;
+}
+
+.block-container{
+    padding-top:2rem;
+}
+
+.card{
+    background:#1E293B;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 0 15px rgba(0,0,0,.25);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.title{
+    font-size:45px;
+    font-weight:700;
+    color:white;
+}
+
+.subtitle{
+    color:#94A3B8;
+    font-size:18px;
+}
