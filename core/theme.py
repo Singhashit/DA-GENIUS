@@ -1,10 +1,10 @@
-# core/theme.py
+import streamlit as st
 
-PRIMARY = "#4F46E5"
-SECONDARY = "#7C3AED"
-BACKGROUND = "#0F172A"
-CARD = "#1E293B"
-TEXT = "#F8FAFC"
-SUCCESS = "#10B981"
-WARNING = "#F59E0B"
-DANGER = "#EF4444"
+
+def set_page():
+    st.set_page_config(
+        page_title="DA GENIUS",
+        page_icon="🚀",
+        layout="wide",
+        initial_sidebar_state="expanded",
+    )
